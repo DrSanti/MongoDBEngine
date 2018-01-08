@@ -317,7 +317,7 @@ function _display(arr) {
         if(cn.length >= 7)
             str += '|' + _fws((arr[i][cn[j]])?parseFloat(arr[i][cn[j]]).toFixed(3): '--', sw[j++]); // sensor5
         if(cn.length >= 8)
-            str += '|' + _fws((arr[i].sensor6)?parseFloat(arr[i].sensor6).toFixed(3): '--', sw[j++]); // sensor6
+            str += '|' + _fws((arr[i][cn[j]])?parseFloat(arr[i][cn[j]]).toFixed(3): '--', sw[j++]); // sensor6
         if(cn.length >= 9)
             str += '|' + _fws((arr[i][cn[j]])?parseFloat(arr[i][cn[j]]).toFixed(3): '--', sw[j++]); // sensor7
         if(cn.length >= 10)
