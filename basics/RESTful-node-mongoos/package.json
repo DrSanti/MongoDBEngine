@@ -1,0 +1,21 @@
+{
+  "name": "rest-api-node-mongoos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "dr.santi nuratch",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.3",
+    "mqtt": "^2.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  }
+}
